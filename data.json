@@ -1,0 +1,1341 @@
+[
+    {
+        "id": 1,
+        "norwegianName": "Svart vårbeger",
+        "scientificName": "Pseudoplectania nigrella",
+        "images": [
+            "Svart_vårbeger03.jpg",
+            "Svart_vårbeger04.jpg",
+            "Svart_vårbeger01.jpg",
+            "Svart_vårbeger02.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "norwegianName": "Skarlagen vårbeger",
+        "scientificName": "Sarcoscypha austriaca",
+        "images": []
+    },
+    {
+        "id": 3,
+        "norwegianName": "Besk lærhatt",
+        "scientificName": "Paxillus involutus",
+        "images": [
+            "besk_lærhatt01.jpg",
+            "besk_lærhatt02.jpg",
+            "besk_lærhatt03.jpg",
+            "besk_lærhatt04.jpg",
+            "besk_lærhatt05.jpg",
+            "besk_lærhatt06.jpg",
+            "besk_lærhatt07.jpg",
+            "besk_lærhatt08.jpg",
+            "besk_lærhatt09.jpg",
+            "besk_lærhatt10.jpg",
+            "besk_lærhatt11.jpg",
+            "besk_lærhatt12.jpg",
+            "besk_lærhatt13.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "norwegianName": "Besk rørsopp",
+        "scientificName": "Boletus calopus",
+        "images": [
+            "besk_rørsopp01.jpg",
+            "besk_rørsopp02.jpg",
+            "besk_rørsopp03.jpg",
+            "besk_rørsopp04.jpg",
+            "besk_rørsopp05.jpg",
+            "besk_rørsopp06.jpg",
+            "besk_rørsopp07.jpg",
+            "besk_rørsopp08.jpg",
+            "besk_rørsopp09.jpg",
+            "besk_rørsopp10.jpg",
+            "besk_rørsopp11.jpg",
+            "besk_rørsopp12.jpg",
+            "besk_rørsopp13.jpg",
+            "besk_rørsopp14.jpg",
+            "besk_rørsopp15.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "norwegianName": "Besk svovelsopp",
+        "scientificName": "Hypholoma fasciculare",
+        "images": [
+            "besk_svovelsopp01.jpg",
+            "besk_svovelsopp02.jpg",
+            "besk_svovelsopp03.jpg",
+            "besk_svovelsopp04.jpg",
+            "besk_svovelsopp05.jpg",
+            "besk_svovelsopp06.jpg",
+            "besk_svovelsopp07.jpg",
+            "besk_svovelsopp08.jpg",
+            "besk_svovelsopp09.jpg",
+            "besk_svovelsopp10.jpg",
+            "besk_svovelsopp11.jpg",
+            "besk_svovelsopp12.jpg",
+            "besk_svovelsopp13.jpg",
+            "besk_svovelsopp14.jpg",
+            "besk_svovelsopp15.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "norwegianName": "Bjørkeøsterssopp",
+        "scientificName": "Pleurotus pulmonarius",
+        "images": [
+            "bjørkeøsterssopp01.jpg",
+            "bjørkeøsterssopp02.jpg",
+            "bjørkeøsterssopp03.jpg",
+            "bjørkeøsterssopp04.jpg",
+            "bjørkeøsterssopp05.jpg",
+            "bjørkeøsterssopp06.jpg",
+            "bjørkeøsterssopp07.jpg",
+            "bjørkeøsterssopp08.jpg",
+            "bjørkeøsterssopp09.jpg",
+            "bjørkeøsterssopp10.jpg",
+            "bjørkeøsterssopp11.jpg",
+            "bjørkeøsterssopp12.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "norwegianName": "Blåkjøttbukkesopp",
+        "scientificName": "Caloboletus radicans",
+        "images": [
+            "blåkjøttbukkesopp01.jpg",
+            "blåkjøttbukkesopp02.jpg",
+            "blåkjøttbukkesopp03.jpg",
+            "blåkjøttbukkesopp04.jpg",
+            "blåkjøttbukkesopp05.jpg",
+            "blåkjøttbukkesopp06.jpg",
+            "blåkjøttbukkesopp07.jpg",
+            "blåkjøttbukkesopp08.jpg",
+            "blåkjøttbukkesopp09.jpg",
+            "blåkjøttbukkesopp10.jpg",
+            "blåkjøttbukkesopp11.jpg",
+            "blåkjøttbukkesopp12.jpg",
+            "blåkjøttbukkesopp13.jpg",
+            "blåkjøttbukkesopp14.jpg",
+            "blåkjøttbukkesopp15.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "norwegianName": "Bleklodden steinsopp",
+        "scientificName": "Boletus reticulatus",
+        "images": [
+            "bleklodden_steinsopp01.jpg",
+            "bleklodden_steinsopp02.jpg",
+            "bleklodden_steinsopp03.jpg",
+            "bleklodden_steinsopp04.jpg",
+            "bleklodden_steinsopp05.jpg",
+            "bleklodden_steinsopp06.jpg",
+            "bleklodden_steinsopp07.jpg",
+            "bleklodden_steinsopp08.jpg",
+            "bleklodden_steinsopp09.jpg",
+            "bleklodden_steinsopp10.jpg",
+            "bleklodden_steinsopp11.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "norwegianName": "Blodrørsopp",
+        "scientificName": "Boletus erythropus",
+        "images": [
+            "blodrørsopp01.jpg",
+            "blodrørsopp02.jpg",
+            "blodrørsopp03.jpg",
+            "blodrørsopp04.jpg",
+            "blodrørsopp05.jpg",
+            "blodrørsopp06.jpg",
+            "blodrørsopp07.jpg",
+            "blodrørsopp08.jpg",
+            "blodrørsopp09.jpg",
+            "blodrørsopp10.jpg",
+            "blodrørsopp11.jpg",
+            "blodrørsopp12.jpg",
+            "blodrørsopp13.jpg",
+            "blodrørsopp14.jpg",
+            "blodrørsopp15.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "norwegianName": "Blomkålsopp",
+        "scientificName": "Sparassis crispa",
+        "images": [
+            "blomkålsopp01.jpg",
+            "blomkålsopp02.jpg",
+            "blomkålsopp03.jpg",
+            "blomkålsopp04.jpg",
+            "blomkålsopp05.jpg",
+            "blomkålsopp06.jpg",
+            "blomkålsopp07.jpg",
+            "blomkålsopp08.jpg",
+            "blomkålsopp09.jpg",
+            "blomkålsopp10.jpg",
+            "blomkålsopp11.jpg",
+            "blomkålsopp12.jpg",
+            "blomkålsopp13.jpg",
+            "blomkålsopp14.jpg",
+            "blomkålsopp15.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "norwegianName": "Brun begersopp",
+        "scientificName": "Peziza badia",
+        "images": [
+            "brun_begersopp01.jpg",
+            "brun_begersopp02.jpg",
+            "brun_begersopp03.jpg",
+            "brun_begersopp04.jpg",
+            "brun_begersopp05.jpg",
+            "brun_begersopp06.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "norwegianName": "Brun fluesopp",
+        "scientificName": "Amanita regalis",
+        "images": [
+            "brun_fluesopp01.jpg",
+            "brun_fluesopp02.jpg",
+            "brun_fluesopp03.jpg",
+            "brun_fluesopp04.jpg",
+            "brun_fluesopp05.jpg",
+            "brun_fluesopp06.jpg",
+            "brun_fluesopp07.jpg",
+            "brun_fluesopp08.jpg",
+            "brun_fluesopp09.jpg",
+            "brun_fluesopp10.jpg",
+            "brun_fluesopp11.jpg",
+            "brun_fluesopp12.jpg",
+            "brun_fluesopp13.jpg",
+            "brun_fluesopp14.jpg",
+            "brun_fluesopp15.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "norwegianName": "Brun kamfluesopp",
+        "scientificName": "Amanita fulva",
+        "images": [
+            "brun_kamfluesopp01.jpg",
+            "brun_kamfluesopp02.jpg",
+            "brun_kamfluesopp03.jpg",
+            "brun_kamfluesopp04.jpg",
+            "brun_kamfluesopp05.jpg",
+            "brun_kamfluesopp06.jpg",
+            "brun_kamfluesopp07.jpg",
+            "brun_kamfluesopp08.jpg",
+            "brun_kamfluesopp09.jpg",
+            "brun_kamfluesopp10.jpg",
+            "brun_kamfluesopp11.jpg",
+            "brun_kamfluesopp12.jpg",
+            "brun_kamfluesopp13.jpg",
+            "brun_kamfluesopp14.jpg",
+            "brun_kamfluesopp15.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "norwegianName": "Brungul stubbemusserong",
+        "scientificName": "Tricholoma fucatum",
+        "images": [
+            "brungul_stubbemusserong01.jpg",
+            "brungul_stubbemusserong02.jpg",
+            "brungul_stubbemusserong03.jpg",
+            "brungul_stubbemusserong04.jpg",
+            "brungul_stubbemusserong05.jpg",
+            "brungul_stubbemusserong06.jpg",
+            "brungul_stubbemusserong07.jpg",
+            "brungul_stubbemusserong08.jpg",
+            "brungul_stubbemusserong09.jpg",
+            "brungul_stubbemusserong10.jpg",
+            "brungul_stubbemusserong11.jpg",
+            "brungul_stubbemusserong12.jpg",
+            "brungul_stubbemusserong13.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "norwegianName": "Brunskrubb",
+        "scientificName": "Leccinum scabrum",
+        "images": [
+            "brunskrubb01.jpg",
+            "brunskrubb02.jpg",
+            "brunskrubb03.jpg",
+            "brunskrubb04.jpg",
+            "brunskrubb05.jpg",
+            "brunskrubb06.jpg",
+            "brunskrubb07.jpg",
+            "brunskrubb08.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "norwegianName": "Dvergstanksopp",
+        "scientificName": "Gerronema strombodes",
+        "images": [
+            "dvergstanksopp01.jpg",
+            "dvergstanksopp02.jpg",
+            "dvergstanksopp03.jpg",
+            "dvergstanksopp04.jpg",
+            "dvergstanksopp05.jpg",
+            "dvergstanksopp06.jpg",
+            "dvergstanksopp07.jpg",
+            "dvergstanksopp08.jpg",
+            "dvergstanksopp09.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "norwegianName": "Enavskjelltrevellesoppene",
+        "scientificName": "Inocybe calamistrata",
+        "images": [
+            "enavskjelltrevellesoppene01.jpg",
+            "enavskjelltrevellesoppene02.jpg",
+            "enavskjelltrevellesoppene03.jpg",
+            "enavskjelltrevellesoppene04.jpg",
+            "enavskjelltrevellesoppene05.jpg",
+            "enavskjelltrevellesoppene06.jpg",
+            "enavskjelltrevellesoppene07.jpg",
+            "enavskjelltrevellesoppene08.jpg",
+            "enavskjelltrevellesoppene09.jpg",
+            "enavskjelltrevellesoppene10.jpg",
+            "enavskjelltrevellesoppene11.jpg",
+            "enavskjelltrevellesoppene12.jpg",
+            "enavskjelltrevellesoppene13.jpg",
+            "enavskjelltrevellesoppene14.jpg",
+            "enavskjelltrevellesoppene15.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "norwegianName": "Ensartet hjelmmorkel",
+        "scientificName": "Verpa conica",
+        "images": []
+    },
+    {
+        "id": 19,
+        "norwegianName": "Falsk kantarell",
+        "scientificName": "Hygrophoropsis aurantiaca",
+        "images": [
+            "falsk_kantarell01.jpg",
+            "falsk_kantarell02.jpg",
+            "falsk_kantarell03.jpg",
+            "falsk_kantarell04.jpg",
+            "falsk_kantarell05.jpg",
+            "falsk_kantarell06.jpg",
+            "falsk_kantarell07.jpg",
+            "falsk_kantarell08.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "norwegianName": "Fåresopp",
+        "scientificName": "Albatrellus ovinus",
+        "images": [
+            "fåresopp01.jpg",
+            "fåresopp02.jpg",
+            "fåresopp03.jpg",
+            "fåresopp04.jpg",
+            "fåresopp05.jpg",
+            "fåresopp06.jpg",
+            "fåresopp07.jpg",
+            "fåresopp08.jpg",
+            "fåresopp09.jpg",
+            "fåresopp10.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "norwegianName": "Fiolkjuke",
+        "scientificName": "Hapalopilus croceus",
+        "images": [
+            "fiolkjuke01.jpg",
+            "fiolkjuke02.jpg",
+            "fiolkjuke03.jpg",
+            "fiolkjuke04.jpg",
+            "fiolkjuke05.jpg",
+            "fiolkjuke06.jpg",
+            "fiolkjuke07.jpg",
+            "fiolkjuke08.jpg",
+            "fiolkjuke09.jpg",
+            "fiolkjuke10.jpg"
+        ]
+    },
+    {
+        "id": 22,
+        "norwegianName": "Fløyelspluggsopp",
+        "scientificName": "Tapinella atrotomentosa",
+        "images": [
+            "fløyelspluggsopp01.jpg",
+            "fløyelspluggsopp02.jpg",
+            "fløyelspluggsopp03.jpg",
+            "fløyelspluggsopp04.jpg",
+            "fløyelspluggsopp05.jpg",
+            "fløyelspluggsopp06.jpg",
+            "fløyelspluggsopp07.jpg"
+        ]
+    },
+    {
+        "id": 23,
+        "norwegianName": "Fregnebittersopp",
+        "scientificName": "Boletus appendiculatus",
+        "images": [
+            "fregnebittersopp01.jpg",
+            "fregnebittersopp02.jpg",
+            "fregnebittersopp03.jpg",
+            "fregnebittersopp04.jpg",
+            "fregnebittersopp05.jpg",
+            "fregnebittersopp06.jpg",
+            "fregnebittersopp07.jpg",
+            "fregnebittersopp08.jpg",
+            "fregnebittersopp09.jpg",
+            "fregnebittersopp10.jpg",
+            "fregnebittersopp11.jpg",
+            "fregnebittersopp12.jpg",
+            "fregnebittersopp13.jpg",
+            "fregnebittersopp14.jpg",
+            "fregnebittersopp15.jpg"
+        ]
+    },
+    {
+        "id": 24,
+        "norwegianName": "Furukonglehatt",
+        "scientificName": "Strobilurus esculentus",
+        "images": [
+            "furukonglehatt01.jpg",
+            "furukonglehatt02.jpg",
+            "furukonglehatt03.jpg",
+            "furukonglehatt04.jpg",
+            "furukonglehatt05.jpg",
+            "furukonglehatt06.jpg",
+            "furukonglehatt07.jpg",
+            "furukonglehatt08.jpg",
+            "furukonglehatt09.jpg",
+            "furukonglehatt10.jpg",
+            "furukonglehatt11.jpg",
+            "furukonglehatt12.jpg",
+            "furukonglehatt13.jpg",
+            "furukonglehatt14.jpg",
+            "furukonglehatt15.jpg"
+        ]
+    },
+    {
+        "id": 25,
+        "norwegianName": "Grandverggaffel",
+        "scientificName": "Clavaria fragilis",
+        "images": [
+            "grandverggaffel01.jpg",
+            "grandverggaffel02.jpg",
+            "grandverggaffel03.jpg",
+            "grandverggaffel04.jpg",
+            "grandverggaffel05.jpg",
+            "grandverggaffel06.jpg"
+        ]
+    },
+    {
+        "id": 26,
+        "norwegianName": "Grantårekremle",
+        "scientificName": "Russula queletii",
+        "images": [
+            "grantårekremle01.jpg",
+            "grantårekremle02.jpg",
+            "grantårekremle03.jpg",
+            "grantårekremle04.jpg",
+            "grantårekremle05.jpg",
+            "grantårekremle06.jpg",
+            "grantårekremle07.jpg",
+            "grantårekremle08.jpg",
+            "grantårekremle09.jpg",
+            "grantårekremle10.jpg",
+            "grantårekremle11.jpg",
+            "grantårekremle12.jpg",
+            "grantårekremle13.jpg",
+            "grantårekremle14.jpg",
+            "grantårekremle15.jpg"
+        ]
+    },
+    {
+        "id": 27,
+        "norwegianName": "Greinseigsopp",
+        "scientificName": "Entoloma sinuatum",
+        "images": [
+            "greinseigsopp01.jpg",
+            "greinseigsopp02.jpg",
+            "greinseigsopp03.jpg",
+            "greinseigsopp04.jpg",
+            "greinseigsopp05.jpg",
+            "greinseigsopp06.jpg",
+            "greinseigsopp07.jpg",
+            "greinseigsopp08.jpg",
+            "greinseigsopp09.jpg",
+            "greinseigsopp10.jpg"
+        ]
+    },
+    {
+        "id": 28,
+        "norwegianName": "Grønnkremle",
+        "scientificName": "Russula aeruginea",
+        "images": [
+            "grønnkremle01.jpg",
+            "grønnkremle02.jpg",
+            "grønnkremle03.jpg",
+            "grønnkremle04.jpg",
+            "grønnkremle05.jpg",
+            "grønnkremle06.jpg",
+            "grønnkremle07.jpg",
+            "grønnkremle08.jpg"
+        ]
+    },
+    {
+        "id": 29,
+        "norwegianName": "Gul fluesopp",
+        "scientificName": "Amanita muscaria var. formosa",
+        "images": [
+            "gul_fluesopp01.jpg",
+            "gul_fluesopp02.jpg",
+            "gul_fluesopp03.jpg",
+            "gul_fluesopp04.jpg",
+            "gul_fluesopp05.jpg",
+            "gul_fluesopp06.jpg",
+            "gul_fluesopp07.jpg",
+            "gul_fluesopp08.jpg",
+            "gul_fluesopp09.jpg",
+            "gul_fluesopp10.jpg",
+            "gul_fluesopp11.jpg"
+        ]
+    },
+    {
+        "id": 30,
+        "norwegianName": "Gul kjeglevokssopp",
+        "scientificName": "Hygrocybe persistens",
+        "images": [
+            "gul_kjeglevokssopp01.jpg",
+            "gul_kjeglevokssopp02.jpg",
+            "gul_kjeglevokssopp03.jpg",
+            "gul_kjeglevokssopp04.jpg",
+            "gul_kjeglevokssopp05.jpg",
+            "gul_kjeglevokssopp06.jpg",
+            "gul_kjeglevokssopp07.jpg",
+            "gul_kjeglevokssopp08.jpg"
+        ]
+    },
+    {
+        "id": 31,
+        "norwegianName": "Gullgaffel",
+        "scientificName": "Ramaria aurea",
+        "images": [
+            "gullgaffel01.jpg",
+            "gullgaffel02.jpg",
+            "gullgaffel03.jpg",
+            "gullgaffel04.jpg",
+            "gullgaffel05.jpg",
+            "gullgaffel06.jpg"
+        ]
+    },
+    {
+        "id": 32,
+        "norwegianName": "Gulmelksøtriske",
+        "scientificName": "Lactarius scrobiculatus",
+        "images": [
+            "gulmelksøtriske01.jpg",
+            "gulmelksøtriske02.jpg",
+            "gulmelksøtriske03.jpg",
+            "gulmelksøtriske04.jpg",
+            "gulmelksøtriske05.jpg",
+            "gulmelksøtriske06.jpg",
+            "gulmelksøtriske07.jpg"
+        ]
+    },
+    {
+        "id": 33,
+        "norwegianName": "Hagtornrust",
+        "scientificName": "Gymnosporangium clavariiforme",
+        "images": [
+            "hagtornrust01.jpg",
+            "hagtornrust02.jpg",
+            "hagtornrust03.jpg",
+            "hagtornrust04.jpg",
+            "hagtornrust05.jpg",
+            "hagtornrust06.jpg",
+            "hagtornrust07.jpg",
+            "hagtornrust08.jpg",
+            "hagtornrust09.jpg",
+            "hagtornrust10.jpg",
+            "hagtornrust11.jpg",
+            "hagtornrust12.jpg",
+            "hagtornrust13.jpg"
+        ]
+    },
+    {
+        "id": 34,
+        "norwegianName": "Honningsopp",
+        "scientificName": "Armillaria mellea",
+        "images": [
+            "honningsopp01.jpg",
+            "honningsopp02.jpg",
+            "honningsopp03.jpg",
+            "honningsopp04.jpg",
+            "honningsopp05.jpg",
+            "honningsopp06.jpg",
+            "honningsopp07.jpg",
+            "honningsopp08.jpg",
+            "honningsopp09.jpg",
+            "honningsopp10.jpg",
+            "honningsopp11.jpg",
+            "honningsopp12.jpg",
+            "honningsopp13.jpg"
+        ]
+    },
+    {
+        "id": 35,
+        "norwegianName": "Hulrørsopp",
+        "scientificName": "Boletinus cavipes",
+        "images": [
+            "hulrørsopp01.jpg",
+            "hulrørsopp02.jpg",
+            "hulrørsopp03.jpg",
+            "hulrørsopp04.jpg",
+            "hulrørsopp05.jpg",
+            "hulrørsopp06.jpg",
+            "hulrørsopp07.jpg",
+            "hulrørsopp08.jpg",
+            "hulrørsopp09.jpg",
+            "hulrørsopp10.jpg",
+            "hulrørsopp11.jpg",
+            "hulrørsopp12.jpg",
+            "hulrørsopp13.jpg",
+            "hulrørsopp14.jpg",
+            "hulrørsopp15.jpg"
+        ]
+    },
+    {
+        "id": 36,
+        "norwegianName": "Kanelslørsopp",
+        "scientificName": "Cortinarius cinnamomeus",
+        "images": [
+            "kanelslørsopp-spørsmåltegn01.jpg",
+            "kanelslørsopp-spørsmåltegn02.jpg",
+            "kanelslørsopp-spørsmåltegn03.jpg",
+            "kanelslørsopp-spørsmåltegn04.jpg",
+            "kanelslørsopp-spørsmåltegn05.jpg",
+            "kanelslørsopp-spørsmåltegn06.jpg",
+            "kanelslørsopp-spørsmåltegn07.jpg",
+            "kanelslørsopp-spørsmåltegn08.jpg",
+            "kanelslørsopp-spørsmåltegn09.jpg"
+        ]
+    },
+    {
+        "id": 37,
+        "norwegianName": "Kantblodhette",
+        "scientificName": "Mycena haematopus",
+        "images": [
+            "kantblodhette01.jpg",
+            "kantblodhette02.jpg",
+            "kantblodhette03.jpg",
+            "kantblodhette04.jpg",
+            "kantblodhette05.jpg",
+            "kantblodhette06.jpg",
+            "kantblodhette07.jpg",
+            "kantblodhette08.jpg",
+            "kantblodhette09.jpg",
+            "kantblodhette10.jpg",
+            "kantblodhette11.jpg"
+        ]
+    },
+    {
+        "id": 38,
+        "norwegianName": "Koboltrødspore",
+        "scientificName": "Entoloma bloxamii",
+        "images": [
+            "koboltrødspore01.jpg",
+            "koboltrødspore02.jpg",
+            "koboltrødspore03.jpg",
+            "koboltrødspore04.jpg",
+            "koboltrødspore05.jpg",
+            "koboltrødspore06.jpg",
+            "koboltrødspore07.jpg",
+            "koboltrødspore08.jpg",
+            "koboltrødspore09.jpg",
+            "koboltrødspore10.jpg",
+            "koboltrødspore11.jpg",
+            "koboltrødspore12.jpg",
+            "koboltrødspore13.jpg",
+            "koboltrødspore14.jpg",
+            "koboltrødspore15.jpg"
+        ]
+    },
+    {
+        "id": 39,
+        "norwegianName": "Konglepiggsopp",
+        "scientificName": "Sarcodon imbricatus",
+        "images": [
+            "konglepiggsopp01.jpg",
+            "konglepiggsopp02.jpg",
+            "konglepiggsopp03.jpg",
+            "konglepiggsopp04.jpg",
+            "konglepiggsopp05.jpg",
+            "konglepiggsopp06.jpg",
+            "konglepiggsopp07.jpg",
+            "konglepiggsopp08.jpg",
+            "konglepiggsopp09.jpg",
+            "konglepiggsopp10.jpg",
+            "konglepiggsopp11.jpg",
+            "konglepiggsopp12.jpg",
+            "konglepiggsopp13.jpg",
+            "konglepiggsopp14.jpg",
+            "konglepiggsopp15.jpg"
+        ]
+    },
+    {
+        "id": 40,
+        "norwegianName": "Lakssopp",
+        "scientificName": "Laccaria laccata",
+        "images": [
+            "lakssopp01.jpg",
+            "lakssopp02.jpg",
+            "lakssopp03.jpg",
+            "lakssopp04.jpg",
+            "lakssopp05.jpg",
+            "lakssopp06.jpg",
+            "lakssopp07.jpg",
+            "lakssopp08.jpg",
+            "lakssopp09.jpg",
+            "lakssopp10.jpg",
+            "lakssopp11.jpg",
+            "lakssopp12.jpg",
+            "lakssopp13.jpg",
+            "lakssopp14.jpg",
+            "lakssopp15.jpg"
+        ]
+    },
+    {
+        "id": 41,
+        "norwegianName": "Lerkesopp",
+        "scientificName": "Suillus grevillei",
+        "images": [
+            "lerkesopp01.jpg",
+            "lerkesopp02.jpg",
+            "lerkesopp03.jpg",
+            "lerkesopp04.jpg",
+            "lerkesopp05.jpg",
+            "lerkesopp06.jpg",
+            "lerkesopp07.jpg",
+            "lerkesopp08.jpg",
+            "lerkesopp09.jpg",
+            "lerkesopp10.jpg",
+            "lerkesopp11.jpg",
+            "lerkesopp12.jpg"
+        ]
+    },
+    {
+        "id": 42,
+        "norwegianName": "Lillastilket slørsopp",
+        "scientificName": "Cortinarius violaceus",
+        "images": [
+            "lillastilket_slørsopp01.jpg",
+            "lillastilket_slørsopp02.jpg",
+            "lillastilket_slørsopp03.jpg",
+            "lillastilket_slørsopp04.jpg",
+            "lillastilket_slørsopp05.jpg",
+            "lillastilket_slørsopp06.jpg",
+            "lillastilket_slørsopp07.jpg",
+            "lillastilket_slørsopp08.jpg",
+            "lillastilket_slørsopp09.jpg",
+            "lillastilket_slørsopp10.jpg",
+            "lillastilket_slørsopp11.jpg",
+            "lillastilket_slørsopp12.jpg",
+            "lillastilket_slørsopp13.jpg",
+            "lillastilket_slørsopp14.jpg",
+            "lillastilket_slørsopp15.jpg"
+        ]
+    },
+    {
+        "id": 43,
+        "norwegianName": "Liten luthette",
+        "scientificName": "Mycena galopus",
+        "images": [
+            "liten_luthette01.jpg",
+            "liten_luthette02.jpg",
+            "liten_luthette03.jpg",
+            "liten_luthette04.jpg"
+        ]
+    },
+    {
+        "id": 44,
+        "norwegianName": "Matblekksopp",
+        "scientificName": "Coprinus comatus",
+        "images": [
+            "matblekksopp01.jpg",
+            "matblekksopp02.jpg",
+            "matblekksopp03.jpg",
+            "matblekksopp04.jpg",
+            "matblekksopp05.jpg",
+            "matblekksopp06.jpg",
+            "matblekksopp07.jpg"
+        ]
+    },
+    {
+        "id": 45,
+        "norwegianName": "Melkehette",
+        "scientificName": "Mycena galopus",
+        "images": [
+            "melkehette01.jpg",
+            "melkehette02.jpg",
+            "melkehette03.jpg",
+            "melkehette04.jpg",
+            "melkehette05.jpg",
+            "melkehette06.jpg",
+            "melkehette07.jpg",
+            "melkehette08.jpg",
+            "melkehette09.jpg",
+            "melkehette10.jpg",
+            "melkehette11.jpg",
+            "melkehette12.jpg",
+            "melkehette13.jpg"
+        ]
+    },
+    {
+        "id": 46,
+        "norwegianName": "Mørkfiolett slørsopp",
+        "scientificName": "Cortinarius violaceus",
+        "images": [
+            "mørkfiolett_slørsopp01.jpg",
+            "mørkfiolett_slørsopp02.jpg",
+            "mørkfiolett_slørsopp03.jpg",
+            "mørkfiolett_slørsopp04.jpg",
+            "mørkfiolett_slørsopp05.jpg",
+            "mørkfiolett_slørsopp06.jpg",
+            "mørkfiolett_slørsopp07.jpg",
+            "mørkfiolett_slørsopp08.jpg",
+            "mørkfiolett_slørsopp09.jpg",
+            "mørkfiolett_slørsopp10.jpg",
+            "mørkfiolett_slørsopp11.jpg",
+            "mørkfiolett_slørsopp12.jpg",
+            "mørkfiolett_slørsopp13.jpg",
+            "mørkfiolett_slørsopp14.jpg"
+        ]
+    },
+    {
+        "id": 47,
+        "norwegianName": "Nelliksopp",
+        "scientificName": "Clitocybe odora",
+        "images": [
+            "nelliksopp01.jpg",
+            "nelliksopp02.jpg",
+            "nelliksopp03.jpg",
+            "nelliksopp04.jpg",
+            "nelliksopp05.jpg",
+            "nelliksopp06.jpg",
+            "nelliksopp07.jpg",
+            "nelliksopp08.jpg",
+            "nelliksopp09.jpg",
+            "nelliksopp10.jpg",
+            "nelliksopp11.jpg",
+            "nelliksopp12.jpg",
+            "nelliksopp13.jpg",
+            "nelliksopp14.jpg",
+            "nelliksopp15.jpg"
+        ]
+    },
+    {
+        "id": 48,
+        "norwegianName": "Nøttekremle",
+        "scientificName": "Russula heterophylla",
+        "images": [
+            "nøttekremle01.jpg",
+            "nøttekremle02.jpg",
+            "nøttekremle03.jpg",
+            "nøttekremle04.jpg",
+            "nøttekremle05.jpg",
+            "nøttekremle06.jpg",
+            "nøttekremle07.jpg",
+            "nøttekremle08.jpg",
+            "nøttekremle09.jpg"
+        ]
+    },
+    {
+        "id": 49,
+        "norwegianName": "Olivenmyrslørsopp",
+        "scientificName": "Cortinarius semisanguineus",
+        "images": [
+            "olivenmyrslørsopp01.jpg",
+            "olivenmyrslørsopp02.jpg",
+            "olivenmyrslørsopp03.jpg",
+            "olivenmyrslørsopp04.jpg",
+            "olivenmyrslørsopp05.jpg",
+            "olivenmyrslørsopp06.jpg",
+            "olivenmyrslørsopp07.jpg",
+            "olivenmyrslørsopp08.jpg",
+            "olivenmyrslørsopp09.jpg",
+            "olivenmyrslørsopp10.jpg",
+            "olivenmyrslørsopp11.jpg",
+            "olivenmyrslørsopp12.jpg"
+        ]
+    },
+    {
+        "id": 50,
+        "norwegianName": "Oransjeslørsopp",
+        "scientificName": "Cortinarius armillatus",
+        "images": [
+            "oransjeslørsopp01.jpg",
+            "oransjeslørsopp02.jpg",
+            "oransjeslørsopp03.jpg",
+            "oransjeslørsopp04.jpg",
+            "oransjeslørsopp05.jpg",
+            "oransjeslørsopp06.jpg",
+            "oransjeslørsopp07.jpg",
+            "oransjeslørsopp08.jpg",
+            "oransjeslørsopp09.jpg",
+            "oransjeslørsopp10.jpg",
+            "oransjeslørsopp11.jpg",
+            "oransjeslørsopp12.jpg",
+            "oransjeslørsopp13.jpg",
+            "oransjeslørsopp14.jpg",
+            "oransjeslørsopp15.jpg"
+        ]
+    },
+    {
+        "id": 51,
+        "norwegianName": "Ospeskrubb",
+        "scientificName": "Leccinum aurantiacum",
+        "images": [
+            "ospeskrubb01.jpg",
+            "ospeskrubb02.jpg",
+            "ospeskrubb03.jpg",
+            "ospeskrubb04.jpg",
+            "ospeskrubb05.jpg",
+            "ospeskrubb06.jpg",
+            "ospeskrubb07.jpg",
+            "ospeskrubb08.jpg",
+            "ospeskrubb09.jpg",
+            "ospeskrubb10.jpg",
+            "ospeskrubb11.jpg",
+            "ospeskrubb12.jpg",
+            "ospeskrubb13.jpg",
+            "ospeskrubb14.jpg",
+            "ospeskrubb15.jpg"
+        ]
+    },
+    {
+        "id": 52,
+        "norwegianName": "Pelargoniumslørsopp",
+        "scientificName": "Cortinarius flexipes",
+        "images": [
+            "pelargoniumslørsopp01.jpg",
+            "pelargoniumslørsopp02.jpg",
+            "pelargoniumslørsopp03.jpg",
+            "pelargoniumslørsopp04.jpg",
+            "pelargoniumslørsopp05.jpg",
+            "pelargoniumslørsopp06.jpg",
+            "pelargoniumslørsopp07.jpg",
+            "pelargoniumslørsopp08.jpg",
+            "pelargoniumslørsopp09.jpg",
+            "pelargoniumslørsopp10.jpg",
+            "pelargoniumslørsopp11.jpg",
+            "pelargoniumslørsopp12.jpg",
+            "pelargoniumslørsopp13.jpg",
+            "pelargoniumslørsopp14.jpg",
+            "pelargoniumslørsopp15.jpg"
+        ]
+    },
+    {
+        "id": 53,
+        "norwegianName": "Potetrøyksopp",
+        "scientificName": "Bovista plumbea",
+        "images": [
+            "potetrøyksopp01.jpg",
+            "potetrøyksopp02.jpg",
+            "potetrøyksopp03.jpg",
+            "potetrøyksopp04.jpg",
+            "potetrøyksopp05.jpg",
+            "potetrøyksopp06.jpg",
+            "potetrøyksopp07.jpg",
+            "potetrøyksopp08.jpg",
+            "potetrøyksopp09.jpg",
+            "potetrøyksopp10.jpg",
+            "potetrøyksopp11.jpg",
+            "potetrøyksopp12.jpg"
+        ]
+    },
+    {
+        "id": 54,
+        "norwegianName": "Raggblåkjuke",
+        "scientificName": "Postia caesia",
+        "images": [
+            "raggblåkjuke10.jpg",
+            "raggblåkjuke11.jpg"
+        ]
+    },
+    {
+        "id": 55,
+        "norwegianName": "Ringpinnehatt",
+        "scientificName": "Strobilurus tenacellus",
+        "images": [
+            "ringpinnehatt01.jpg",
+            "ringpinnehatt02.jpg",
+            "ringpinnehatt03.jpg",
+            "ringpinnehatt04.jpg",
+            "ringpinnehatt05.jpg",
+            "ringpinnehatt06.jpg",
+            "ringpinnehatt07.jpg",
+            "ringpinnehatt08.jpg",
+            "ringpinnehatt09.jpg",
+            "ringpinnehatt10.jpg",
+            "ringpinnehatt11.jpg",
+            "ringpinnehatt12.jpg",
+            "ringpinnehatt13.jpg",
+            "ringpinnehatt14.jpg",
+            "ringpinnehatt15.jpg"
+        ]
+    },
+    {
+        "id": 56,
+        "norwegianName": "Rognrust",
+        "scientificName": "Gymnosporangium cornutum",
+        "images": [
+            "rognrust01.jpg",
+            "rognrust02.jpg",
+            "rognrust03.jpg",
+            "rognrust04.jpg",
+            "rognrust05.jpg"
+        ]
+    },
+    {
+        "id": 57,
+        "norwegianName": "Rosegreinrust",
+        "scientificName": "Phragmidium mucronatum",
+        "images": [
+            "rosegreinrust01.jpg",
+            "rosegreinrust02.jpg",
+            "rosegreinrust03.jpg",
+            "rosegreinrust04.jpg",
+            "rosegreinrust05.jpg",
+            "rosegreinrust06.jpg",
+            "rosegreinrust07.jpg",
+            "rosegreinrust08.jpg",
+            "rosegreinrust09.jpg",
+            "rosegreinrust10.jpg",
+            "rosegreinrust11.jpg",
+            "rosegreinrust12.jpg",
+            "rosegreinrust13.jpg"
+        ]
+    },
+    {
+        "id": 58,
+        "norwegianName": "Rustbrunpigg",
+        "scientificName": "Hydnellum ferrugineum",
+        "images": [
+            "rustbrunpigg01.jpg",
+            "rustbrunpigg02.jpg",
+            "rustbrunpigg03.jpg",
+            "rustbrunpigg04.jpg",
+            "rustbrunpigg05.jpg",
+            "rustbrunpigg06.jpg",
+            "rustbrunpigg07.jpg",
+            "rustbrunpigg08.jpg",
+            "rustbrunpigg09.jpg",
+            "rustbrunpigg10.jpg",
+            "rustbrunpigg11.jpg",
+            "rustbrunpigg12.jpg"
+        ]
+    },
+    {
+        "id": 59,
+        "norwegianName": "Rød fluesopp",
+        "scientificName": "Amanita muscaria",
+        "images": [
+            "rød_fluesopp.jpg",
+            "rød_fluesopp01.jpg",
+            "rød_fluesopp02.jpg",
+            "rød_fluesopp03.jpg",
+            "rød_fluesopp04.jpg",
+            "rød_fluesopp05.jpg",
+            "rød_fluesopp06.jpg",
+            "rød_fluesopp07.jpg",
+            "rød_fluesopp08.jpg",
+            "rød_fluesopp09.jpg",
+            "rød_fluesopp10.jpg"
+        ]
+    },
+    {
+        "id": 60,
+        "norwegianName": "Rød stubbemusserong",
+        "scientificName": "Tricholomopsis rutilans",
+        "images": [
+            "rød_stubbemusserong01.jpg",
+            "rød_stubbemusserong02.jpg",
+            "rød_stubbemusserong03.jpg",
+            "rød_stubbemusserong04.jpg"
+        ]
+    },
+    {
+        "id": 61,
+        "norwegianName": "Rødkanthette",
+        "scientificName": "Mycena adonis",
+        "images": [
+            "rødkanthette01.jpg",
+            "rødkanthette02.jpg",
+            "rødkanthette03.jpg",
+            "rødkanthette04.jpg",
+            "rødkanthette05.jpg",
+            "rødkanthette06.jpg",
+            "rødkanthette07.jpg",
+            "rødkanthette08.jpg",
+            "rødkanthette09.jpg",
+            "rødkanthette10.jpg"
+        ]
+    },
+    {
+        "id": 62,
+        "norwegianName": "Rødkremle",
+        "scientificName": "Russula emetica",
+        "images": [
+            "rødkremle01.jpg",
+            "rødkremle02.jpg",
+            "rødkremle03.jpg",
+            "rødkremle04.jpg",
+            "rødkremle05.jpg",
+            "rødkremle06.jpg",
+            "rødkremle07.jpg",
+            "rødkremle08.jpg",
+            "rødkremle09.jpg",
+            "rødkremle10.jpg",
+            "rødkremle11.jpg",
+            "rødkremle12.jpg",
+            "rødkremle13.jpg",
+            "rødkremle14.jpg",
+            "rødkremle15.jpg"
+        ]
+    },
+    {
+        "id": 63,
+        "norwegianName": "Rødnende fluesopp",
+        "scientificName": "Amanita rubescens",
+        "images": [
+            "rødnende_fluesopp01.jpg",
+            "rødnende_fluesopp02.jpg",
+            "rødnende_fluesopp03.jpg",
+            "rødnende_fluesopp04.jpg",
+            "rødnende_fluesopp05.jpg",
+            "rødnende_fluesopp06.jpg",
+            "rødnende_fluesopp07.jpg",
+            "rødnende_fluesopp08.jpg",
+            "rødnende_fluesopp09.jpg",
+            "rødnende_fluesopp10.jpg",
+            "rødnende_fluesopp11.jpg",
+            "rødnende_fluesopp12.jpg",
+            "rødnende_fluesopp13.jpg",
+            "rødnende_fluesopp14.jpg",
+            "rødnende_fluesopp15.jpg"
+        ]
+    },
+    {
+        "id": 64,
+        "norwegianName": "Rødrandkjuke",
+        "scientificName": "Fomitopsis pinicola",
+        "images": []
+    },
+    {
+        "id": 65,
+        "norwegianName": "Skvallerkål",
+        "scientificName": "Aegopodium podagraria",
+        "images": [
+            "skvallerkål01.jpg",
+            "skvallerkål02.jpg",
+            "skvallerkål03.jpg",
+            "skvallerkål04.jpg",
+            "skvallerkål05.jpg"
+        ]
+    },
+    {
+        "id": 66,
+        "norwegianName": "Sleipsopp",
+        "scientificName": "Chroogomphus rutilus",
+        "images": [
+            "sleipsopp01.jpg",
+            "sleipsopp02.jpg",
+            "sleipsopp03.jpg",
+            "sleipsopp04.jpg",
+            "sleipsopp05.jpg",
+            "sleipsopp06.jpg",
+            "sleipsopp07.jpg",
+            "sleipsopp08.jpg",
+            "sleipsopp09.jpg",
+            "sleipsopp10.jpg",
+            "sleipsopp11.jpg",
+            "sleipsopp12.jpg",
+            "sleipsopp13.jpg",
+            "sleipsopp14.jpg",
+            "sleipsopp15.jpg"
+        ]
+    },
+    {
+        "id": 67,
+        "norwegianName": "Slimmorkel",
+        "scientificName": "Gyromitra esculenta",
+        "images": [
+            "slimmorkel01.jpg",
+            "slimmorkel02.jpg",
+            "slimmorkel03.jpg",
+            "slimmorkel04.jpg",
+            "slimmorkel05.jpg",
+            "slimmorkel06.jpg",
+            "slimmorkel07.jpg"
+        ]
+    },
+    {
+        "id": 68,
+        "norwegianName": "Spiss giftslørsopp",
+        "scientificName": "Cortinarius rubellus",
+        "images": [
+            "spiss_giftslørsopp01.jpg",
+            "spiss_giftslørsopp02.jpg",
+            "spiss_giftslørsopp03.jpg",
+            "spiss_giftslørsopp04.jpg",
+            "spiss_giftslørsopp05.jpg",
+            "spiss_giftslørsopp06.jpg",
+            "spiss_giftslørsopp07.jpg",
+            "spiss_giftslørsopp08.jpg",
+            "spiss_giftslørsopp09.jpg",
+            "spiss_giftslørsopp10.jpg"
+        ]
+    },
+    {
+        "id": 69,
+        "norwegianName": "Stanksopp",
+        "scientificName": "Phallus impudicus",
+        "images": [
+            "stanksopp01.jpg",
+            "stanksopp02.jpg",
+            "stanksopp03.jpg",
+            "stanksopp04.jpg",
+            "stanksopp05.jpg",
+            "stanksopp06.jpg",
+            "stanksopp07.jpg",
+            "stanksopp08.jpg",
+            "stanksopp09.jpg",
+            "stanksopp10.jpg",
+            "stanksopp11.jpg",
+            "stanksopp12.jpg",
+            "stanksopp13.jpg",
+            "stanksopp14.jpg",
+            "stanksopp15.jpg"
+        ]
+    },
+    {
+        "id": 70,
+        "norwegianName": "Steinsopp",
+        "scientificName": "Boletus edulis",
+        "images": [
+            "steinsopp01.jpg",
+            "steinsopp02.jpg",
+            "steinsopp03.jpg",
+            "steinsopp04.jpg"
+        ]
+    },
+    {
+        "id": 71,
+        "norwegianName": "Stubbeskjellsopp",
+        "scientificName": "Kuehneromyces mutabilis",
+        "images": [
+            "stubbeskjellsopp01.jpg",
+            "stubbeskjellsopp02.jpg",
+            "stubbeskjellsopp03.jpg",
+            "stubbeskjellsopp04.jpg",
+            "stubbeskjellsopp05.jpg",
+            "stubbeskjellsopp06.jpg",
+            "stubbeskjellsopp07.jpg",
+            "stubbeskjellsopp08.jpg",
+            "stubbeskjellsopp09.jpg",
+            "stubbeskjellsopp10.jpg",
+            "stubbeskjellsopp11.jpg",
+            "stubbeskjellsopp12.jpg",
+            "stubbeskjellsopp13.jpg",
+            "stubbeskjellsopp14.jpg",
+            "stubbeskjellsopp15.jpg"
+        ]
+    },
+    {
+        "id": 72,
+        "norwegianName": "Svovelkjuke",
+        "scientificName": "Laetiporus sulphureus",
+        "images": [
+            "svovelkjuke01.jpg",
+            "svovelkjuke02.jpg",
+            "svovelkjuke03.jpg",
+            "svovelkjuke04.jpg",
+            "svovelkjuke05.jpg",
+            "svovelkjuke06.jpg",
+            "svovelkjuke07.jpg",
+            "svovelkjuke08.jpg",
+            "svovelkjuke09.jpg",
+            "svovelkjuke10.jpg",
+            "svovelkjuke11.jpg",
+            "svovelkjuke12.jpg",
+            "svovelkjuke13.jpg",
+            "svovelkjuke14.jpg",
+            "svovelkjuke15.jpg"
+        ]
+    },
+    {
+        "id": 73,
+        "norwegianName": "Sørlig rødgul piggsopp",
+        "scientificName": "Hydnellum peckii",
+        "images": [
+            "sørlig_rødgul_piggsopp01.jpg",
+            "sørlig_rødgul_piggsopp02.jpg",
+            "sørlig_rødgul_piggsopp03.jpg",
+            "sørlig_rødgul_piggsopp04.jpg",
+            "sørlig_rødgul_piggsopp05.jpg",
+            "sørlig_rødgul_piggsopp06.jpg",
+            "sørlig_rødgul_piggsopp07.jpg"
+        ]
+    },
+    {
+        "id": 74,
+        "norwegianName": "Torvnavlesopp",
+        "scientificName": "Omphalina hudsoniana",
+        "images": [
+            "torvnavlesopp01.jpg",
+            "torvnavlesopp02.jpg",
+            "torvnavlesopp03.jpg",
+            "torvnavlesopp04.jpg",
+            "torvnavlesopp05.jpg",
+            "torvnavlesopp06.jpg",
+            "torvnavlesopp07.jpg",
+            "torvnavlesopp08.jpg",
+            "torvnavlesopp09.jpg",
+            "torvnavlesopp10.jpg",
+            "torvnavlesopp11.jpg",
+            "torvnavlesopp12.jpg"
+        ]
+    },
+    {
+        "id": 75,
+        "norwegianName": "Vorterøyksopp",
+        "scientificName": "Lycoperdon perlatum",
+        "images": [
+            "vorterøyksopp01.jpg",
+            "vorterøyksopp02.jpg",
+            "vorterøyksopp03.jpg",
+            "vorterøyksopp04.jpg",
+            "vorterøyksopp05.jpg",
+            "vorterøyksopp06.jpg",
+            "vorterøyksopp07.jpg",
+            "vorterøyksopp08.jpg",
+            "vorterøyksopp09.jpg",
+            "vorterøyksopp10.jpg",
+            "vorterøyksopp11.jpg",
+            "vorterøyksopp12.jpg",
+            "vorterøyksopp13.jpg",
+            "vorterøyksopp14.jpg"
+        ]
+    }
+]

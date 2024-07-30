@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <title>Norges Sopper - Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Norges Sopper</h1>
+    <nav>
+      <a href="index.html">Hjem</a>
+      <a href="compare.html">Side ved Side</a>
+      <a href="sopp.html">Sopp</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <div class="quiz-container">
+    <div class="quiz-image-container">
+      <button id="prevImage">Forrige Bilde</button>
+      <img id="quizImage" src="" alt="Mushroom Image">
+      <button id="nextImage">Neste Bilde</button>
+    </div>
+    <button id="showAnswer">Vis Svar</button>
+    <p id="answer" class="hidden"></p>
+    <div class="navigation-buttons">
+      <button id="prevMushroom">Forrige</button>
+      <button id="nextMushroom">Neste</button>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let mushrooms = [];
+      let currentMushroomIndex = 0;
+      let currentImageIndex = 0;
+
+      async function fetchData() {
+        const response = await fetch('data.json');
+        const data = await response.json();
+        mushrooms = data;
+        displayMushroom();
+      }
+
+      function displayMushroom() {
+        const mushroom = mushrooms[currentMushroomIndex];
+        const image = document.getElementById('quizImage');
+        image.src = `images/${mushroom.images[currentImageIndex]}`;
+        const answer = document.getElementById('answer');
+        answer.textContent = `${mushroom.norwegianName} (${mushroom.scientificName})`;
+        answer.classList.add('hidden');
+      }
+
+      document.getElementById('prevImage').addEventListener('click', () => {
+        if (currentImageIndex > 0) {
+          currentImageIndex--;
+          displayMushroom();
+        }
+      });
+
+      document.getElementById('nextImage').addEventListener('click', () => {
+        if (currentImageIndex < mushrooms[currentMushroomIndex].images.length - 1) {
+          currentImageIndex++;
+          displayMushroom();
+        }
+      });
+
+      document.getElementById('showAnswer').addEventListener('click', () => {
+        const answer = document.getElementById('answer');
+        answer.classList.remove('hidden');
+      });
+
+      document.getElementById('prevMushroom').addEventListener('click', () => {
+        if (currentMushroomIndex > 0) {
+          currentMushroomIndex--;
+          currentImageIndex = 0;
+          displayMushroom();
+        }
+      });
+
+      document.getElementById('nextMushroom').addEventListener('click', () => {
+        if (currentMushroomIndex < mushrooms.length - 1) {
+          currentMushroomIndex++;
+          currentImageIndex = 0;
+          displayMushroom();
+        }
+      });
+
+      fetchData();
+    });
+  </script>
+</body>
+</html>

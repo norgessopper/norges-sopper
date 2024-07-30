@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <title>Norges Sopper - Compare</title>
+  <link rel="stylesheet" href="compare.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Norges Sopper</h1>
+    <nav>
+      <a href="index.html">Hjem</a>
+      <a href="compare.html">Side ved Side</a>
+      <a href="sopp.html">Sopp</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <button id="addColumn">Legg til ny sopp</button>
+
+  <div class="compare-container">
+    <div class="mushroom-column">
+      <button class="moveUp">Move Up</button>
+      <button class="moveDown">Move Down</button>
+      <div class="search-container">
+        <input type="text" class="search" placeholder="Søk etter sopp 1">
+        <div class="suggestions"></div>
+      </div>
+      <div class="mushroom-images"></div>
+    </div>
+    <div class="mushroom-column">
+      <button class="moveUp">Move Up</button>
+      <button class="moveDown">Move Down</button>
+      <div class="search-container">
+        <input type="text" class="search" placeholder="Søk etter sopp 2">
+        <div class="suggestions"></div>
+      </div>
+      <div class="mushroom-images"></div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const mushrooms = [];
+
+      async function fetchData() {
+        const response = await fetch('data.json');
+        const data = await response.json();
+        mushrooms.push(...data);
+        initializeColumns();
+      }
+
+      function filterMushrooms(searchTerm) {
+        return mushrooms.filter(mushroom =>
+          mushroom.norwegianName.toLowerCase().includes(searchTerm) ||
+          mushroom.scientificName.toLowerCase().includes(searchTerm)
+        );
+      }
+
+      function updateImages(container, images) {
+        container.innerHTML = '';
+        images.forEach(imageSrc => {
+          const image = document.createElement('img');
+          image.src = `images/${imageSrc}`;
+          image.alt = `Image`;
+          image.classList.add('mushroom-image');
+          container.appendChild(image);
+        });
+      }
+
+      function createSuggestionsList(inputElement, suggestionsContainer, imageContainer, imageArray) {
+        inputElement.addEventListener('input', (event) => {
+          const searchTerm = event.target.value.toLowerCase();
+          const filteredMushrooms = filterMushrooms(searchTerm);
+
+          suggestionsContainer.innerHTML = '';
+
+          filteredMushrooms.forEach(mushroom => {
+            const suggestionItem = document.createElement('div');
+            suggestionItem.textContent = `${mushroom.norwegianName} (${mushroom.scientificName})`;
+            suggestionItem.classList.add('suggestion');
+            suggestionItem.addEventListener('click', () => {
+              inputElement.value = mushroom.norwegianName;
+              suggestionsContainer.innerHTML = '';
+              imageContainer.innerHTML = '';
+              mushroom.images.slice(0, 15).forEach(imageFilename => {
+                const image = document.createElement('img');
+                image.src = `images/${imageFilename}`;
+                image.alt = mushroom.norwegianName;
+                image.classList.add('mushroom-image');
+                imageContainer.appendChild(image);
+              });
+              imageArray.length = 0;
+              imageArray.push(...mushroom.images.slice(0, 15));
+            });
+            suggestionsContainer.appendChild(suggestionItem);
+          });
+        });
+      }
+
+      function handleMoveButtons(upButton, downButton, imageArray, imageContainer) {
+        upButton.addEventListener('click', () => {
+          if (imageArray.length > 1) {
+            const firstImage = imageArray.shift();
+            imageArray.push(firstImage);
+            updateImages(imageContainer, imageArray);
+          }
+        });
+
+        downButton.addEventListener('click', () => {
+          if (imageArray.length > 1) {
+            const lastImage = imageArray.pop();
+            imageArray.unshift(lastImage);
+            updateImages(imageContainer, imageArray);
+          }
+        });
+      }
+
+      function initializeColumns() {
+        const columns = document.querySelectorAll('.mushroom-column');
+        columns.forEach((column) => {
+          const searchInput = column.querySelector('.search');
+          const suggestions = column.querySelector('.suggestions');
+          const mushroomImages = column.querySelector('.mushroom-images');
+          const moveUpButton = column.querySelector('.moveUp');
+          const moveDownButton = column.querySelector('.moveDown');
+
+          let imageArray = [];
+
+          createSuggestionsList(searchInput, suggestions, mushroomImages, imageArray);
+          handleMoveButtons(moveUpButton, moveDownButton, imageArray, mushroomImages);
+        });
+      }
+
+      function addNewColumn() {
+        const compareContainer = document.querySelector('.compare-container');
+        const newColumn = document.createElement('div');
+        newColumn.classList.add('mushroom-column');
+        newColumn.innerHTML = `
+          <button class="moveUp">Move Up</button>
+          <button class="moveDown">Move Down</button>
+          <div class="search-container">
+            <input type="text" class="search" placeholder="Søk etter sopp">
+            <div class="suggestions"></div>
+          </div>
+          <div class="mushroom-images"></div>
+        `;
+        compareContainer.appendChild(newColumn);
+        initializeColumns();
+      }
+
+      document.getElementById('addColumn').addEventListener('click', addNewColumn);
+
+      fetchData();
+    });
+  </script>
+</body>
+</html>
