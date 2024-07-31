@@ -11,12 +11,6 @@
         ]
     },
     {
-        "id": 2,
-        "norwegianName": "Skarlagen vårbeger",
-        "scientificName": "Sarcoscypha austriaca",
-        "images": []
-    },
-    {
         "id": 3,
         "norwegianName": "Besk lærhatt",
         "scientificName": "Paxillus involutus",
@@ -292,32 +286,18 @@
         ]
     },
     {
-        "id": 17,
-        "norwegianName": "Enavskjelltrevellesoppene",
-        "scientificName": "Inocybe calamistrata",
-        "images": [
-            "enavskjelltrevellesoppene01.jpg",
-            "enavskjelltrevellesoppene02.jpg",
-            "enavskjelltrevellesoppene03.jpg",
-            "enavskjelltrevellesoppene04.jpg",
-            "enavskjelltrevellesoppene05.jpg",
-            "enavskjelltrevellesoppene06.jpg",
-            "enavskjelltrevellesoppene07.jpg",
-            "enavskjelltrevellesoppene08.jpg",
-            "enavskjelltrevellesoppene09.jpg",
-            "enavskjelltrevellesoppene10.jpg",
-            "enavskjelltrevellesoppene11.jpg",
-            "enavskjelltrevellesoppene12.jpg",
-            "enavskjelltrevellesoppene13.jpg",
-            "enavskjelltrevellesoppene14.jpg",
-            "enavskjelltrevellesoppene15.jpg"
-        ]
-    },
-    {
         "id": 18,
-        "norwegianName": "Ensartet hjelmmorkel",
+        "norwegianName": "Ensfarget hjelmmorkel",
         "scientificName": "Verpa conica",
-        "images": []
+        "images": ["ensfarget_hjelmmorkel01.jpg",
+            "ensfarget_hjelmmorkel02.jpg",
+            "ensfarget_hjelmmorkel3.jpg",
+            "ensfarget_hjelmmorkel4.jpg",
+            "ensfarget_hjelmmorkel05.jpg",
+            "ensfarget_hjelmmorkel06.jpg",
+            "ensfarget_hjelmmorkel07.jpg",
+            "ensfarget_hjelmmorkel08.jpg",
+            "ensfarget_hjelmmorkel09.jpg"]
     },
     {
         "id": 19,
@@ -613,22 +593,6 @@
             "hulrørsopp13.jpg",
             "hulrørsopp14.jpg",
             "hulrørsopp15.jpg"
-        ]
-    },
-    {
-        "id": 36,
-        "norwegianName": "Kanelslørsopp",
-        "scientificName": "Cortinarius cinnamomeus",
-        "images": [
-            "kanelslørsopp-spørsmåltegn01.jpg",
-            "kanelslørsopp-spørsmåltegn02.jpg",
-            "kanelslørsopp-spørsmåltegn03.jpg",
-            "kanelslørsopp-spørsmåltegn04.jpg",
-            "kanelslørsopp-spørsmåltegn05.jpg",
-            "kanelslørsopp-spørsmåltegn06.jpg",
-            "kanelslørsopp-spørsmåltegn07.jpg",
-            "kanelslørsopp-spørsmåltegn08.jpg",
-            "kanelslørsopp-spørsmåltegn09.jpg"
         ]
     },
     {
@@ -969,8 +933,8 @@
         "norwegianName": "Raggblåkjuke",
         "scientificName": "Postia caesia",
         "images": [
-            "raggblåkjuke10.jpg",
-            "raggblåkjuke11.jpg"
+            "raggblåkjuke01.jpg",
+            "raggblåkjuke02.jpg"
         ]
     },
     {
@@ -1140,18 +1104,12 @@
         "id": 64,
         "norwegianName": "Rødrandkjuke",
         "scientificName": "Fomitopsis pinicola",
-        "images": []
-    },
-    {
-        "id": 65,
-        "norwegianName": "Skvallerkål",
-        "scientificName": "Aegopodium podagraria",
         "images": [
-            "skvallerkål01.jpg",
-            "skvallerkål02.jpg",
-            "skvallerkål03.jpg",
-            "skvallerkål04.jpg",
-            "skvallerkål05.jpg"
+            "rødrandkjuke01.jpg",
+            "rødrandkjuke02.jpg",
+            "rødrandkjuke03.jpg",
+            "rødrandkjuke04.jpg",
+            "rødrandkjuke05.jpg"
         ]
     },
     {
