@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added for mobile optimization -->
+  <title>Norges Sopper - Hjem</title>
+  <link rel="stylesheet" href="soppgol.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="main-headline">GOL 2024</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="gol.html">Gol</a></li>
+          <li><a href="soppgol.html">Sopp</a></li>
+          <li><a href="quizgol.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="main-search" placeholder="Søk etter sopp">
+    <div id="suggestions"></div>
+  </div>
+
+  <div class="mushroom-details-container">
+    <h1 id="mushroom-name">Mushroom Name</h1>
+    <h2 id="scientific-name"><i>Scientific Name</i></h2>
+    <div class="navigation-buttons">
+      <button id="prev-mushroom">Forrige</button>
+      <button id="next-mushroom">Neste</button>
+    </div>
+    <div class="images-container" id="images-container">
+      <!-- Images will be dynamically inserted here -->
+    </div>
+  </div>
+
+  <!-- Modal for Image Viewer -->
+  <div id="image-modal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-content-container">
+      <img class="modal-content" id="modal-image">
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+  </div>
+
+  <script src="soppgol.js"></script>
+</body>
+</html>
