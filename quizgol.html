@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <title>Norges Sopper - Quiz</title>
+  <link rel="stylesheet" href="quizgol.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="main-headline">Norges Sopper - Quiz</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="gol.html">Gol</a></li>
+          <li><a href="soppgol.html">Sopp</a></li>
+          <li><a href="quizgol.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="quiz-container">
+    <div class="quiz-image-container">
+      <button id="prevImage">Forrige Bilde</button>
+      <img id="quizImage" src="" alt="Soppbilde">
+      <button id="nextImage">Neste Bilde</button>
+    </div>
+    <button id="showAnswer">Vis Svar</button>
+    <p id="answer" class="hidden"></p>
+    <div class="navigation-buttons">
+      <button id="prevMushroom">Forrige</button>
+      <button id="nextMushroom">Neste</button>
+    </div>
+  </div>
+
+  <!-- Modal for Image Viewer -->
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+
+  <script src="quizgol.js"></script>
+</body>
+</html>
