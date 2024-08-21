@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <title>Norges Sopper - Hjem</title>
+  <link rel="stylesheet" href="stylegol.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="main-headline">GOL 2024</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="gol.html">Gol</a></li>
+          <li><a href="soppgol.html">Sopp</a></li>
+          <li><a href="quizgol.html">Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="main-search" placeholder="Søk etter sopp">
+    <div id="suggestions"></div>
+  </div>
+
+  <section id="mushroom-gallery" class="mushroom-gallery"></section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const mushrooms = [];
+
+      async function fetchData() {
+        const response = await fetch('gol.json');
+        const data = await response.json();
+        mushrooms.push(...data);
+        populateGallery(mushrooms);
+      }
+
+      function populateGallery(mushroomsToDisplay) {
+        const gallery = document.getElementById('mushroom-gallery');
+        gallery.innerHTML = '';
+
+        mushroomsToDisplay.forEach(mushroom => {
+          const mushroomDiv = document.createElement('div');
+          mushroomDiv.classList.add('mushroom-card');
+          mushroomDiv.innerHTML = `
+            <img src="images/${mushroom.images[0]}" alt="${mushroom.norwegianName}" class="mushroom-image">
+            <p><strong>${mushroom.norwegianName}</strong></p>
+            <p><em>${mushroom.scientificName}</em></p>
+          `;
+          mushroomDiv.addEventListener('click', () => {
+            window.location.href = `soppgol.html?name=${mushroom.norwegianName}&scientificName=${mushroom.scientificName}`;
+          });
+          gallery.appendChild(mushroomDiv);
+        });
+      }
+
+      function filterMushrooms(searchTerm) {
+        const filteredMushrooms = mushrooms.filter(mushroom => 
+          mushroom.norwegianName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          mushroom.scientificName.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+        displaySuggestions(filteredMushrooms);
+        populateGallery(filteredMushrooms);
+      }
+
+      function displaySuggestions(suggestions) {
+        const suggestionsContainer = document.getElementById('suggestions');
+        suggestionsContainer.innerHTML = '';
+
+        suggestions.forEach(suggestion => {
+          const suggestionDiv = document.createElement('div');
+          suggestionDiv.classList.add('suggestion');
+          suggestionDiv.innerHTML = `${suggestion.norwegianName} <em>(${suggestion.scientificName})</em>`;
+          suggestionDiv.addEventListener('click', () => {
+            document.getElementById('main-search').value = suggestion.norwegianName;
+            suggestionsContainer.innerHTML = '';
+            populateGallery([suggestion]);
+          });
+          suggestionsContainer.appendChild(suggestionDiv);
+        });
+      }
+
+      const mainSearch = document.getElementById('main-search');
+      mainSearch.addEventListener('input', (event) => {
+        const searchTerm = event.target.value;
+        if (searchTerm.length > 0) {
+          filterMushrooms(searchTerm);
+        } else {
+          document.getElementById('suggestions').innerHTML = '';
+          populateGallery(mushrooms);
+        }
+      });
+
+      fetchData();
+    });
+  </script>
+</body>
+</html>
